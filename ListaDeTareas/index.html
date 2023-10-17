@@ -1,0 +1,42 @@
+<!--Nombre: Enrique Vincent Amayo Belén Id: 10151974-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de tareas</title>
+</head>
+<body>
+
+    <h1>Lista de tareas</h1>
+
+    <!--Contenedor de los inputs para crear la tarea-->
+    <div class="container">
+        
+        <h1>Agrega una tarea</h1> 
+
+        <!--Input para el nombre de  la tarea, con un limite de 25 caracteres-->
+        <input type="text" id="taskInput" placeholder="ingresa una tarea" maxlength="25">
+        
+
+        <!--Elemento select con las opciones de prioridad para las tareas-->
+        <select id="taskPriority" name="taskPriority">
+            <option value="Alta">Alta</option>
+            <option value="Mediana">Mediana</option>
+            <option value="Baja">Baja</option>>
+        </select>
+
+        <!--Boton para agregar la tarea al listado-->
+        <button id="addTask">Agregar</button>
+    </div>
+
+    <!--Contenedor del listado donde se agregaran las tareas-->
+    <div class="listado">
+        <h1>Listado</h1>
+        <ul id="taskList"></ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

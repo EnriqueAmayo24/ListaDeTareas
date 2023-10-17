@@ -1,0 +1,87 @@
+/*Nombre: Enrique Vincent Amayo Belén Id: 10151974*/
+
+/*Dandole estilo al body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(73, 73, 192, 0.795);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/*Modificaciones generales a ambos divs*/
+.container, .listado {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #33288342;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Dandole un margen y un ancho maximo*/
+.listado{
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+/*Centrando los elementos h1*/
+h1 {
+    text-align: center;
+}
+
+/*Eliminando el estilo por defecto y dandole un relleno de 0*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*Modificando los elementos li*/
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid white;
+    margin-top: 10px;
+}
+
+/*Modificando en general los botones*/
+li button {
+    display: flex;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/*Modificando los margenes y  bordes*/
+#taskInput, #addTask, #taskPriority{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    border: solid white;
+    margin-top: 10px;
+
+}
+
+/*Para darle color a los botones*/
+#addTask{
+    margin-top: 10px;
+    background-color: rgb(33, 131, 33);
+    color: white;
+}
+#completeTask{
+    background-color: green;
+}
+#editTask{
+    background-color: blue;
+}
+
+#deleteTask{
+    background-color: red;
+}
